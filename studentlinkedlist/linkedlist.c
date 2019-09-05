@@ -162,9 +162,10 @@ char a[20];
 
 for(i=list->head;i->next!=NULL;i=i->next)
 {
-printf("\nemtered");
+//printf("\nemtered");
 for(j=i;j!=NULL;j=j->next)
-{printf("\nagain");
+{
+  //printf("\nagain");
 //printf("%s %s",i->data.name,j->data.name);
 if(strcmp(i->data.name,j->data.name)>0)
 {
